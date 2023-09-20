@@ -1,0 +1,11 @@
+http://localhost:8762/currency-exchange/from/USD/to/INR
+http://localhost:8762/questions
+http://localhost:8762/h2-console
+
+
+netstat -ano | findstr :<PORT>
+taskkill /PID <PID> /F
+
+//really important to know when working with lombok and mapstruct together
+https://stackoverflow.com/questions/64689460/mapstruct-mapper-returns-empty-mapped-object
+https://stackoverflow.com/questions/47676369/mapstruct-lombok-together-not-compiling-unknown-property-in-result-type
