@@ -43,6 +43,7 @@ public class QuestionProviderController {
     public List<QuestionProviderDTO> getAllQuestions() {
         List<QuestionProviderDTO> questions = questionProviderService.getAllQuestions();
         logger.info("All question => {}", questions);
+
         return questions;
     }
 }
