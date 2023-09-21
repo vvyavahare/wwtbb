@@ -8,8 +8,6 @@ import org.junit.jupiter.api.extension.ExtendWith;
 
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.BDDMockito.given;
-import static org.mockito.BDDMockito.willDoNothing;
-import static org.mockito.Mockito.*;
 
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -18,12 +16,10 @@ import org.wwtbb.data.Question;
 import org.wwtbb.data.QuestionProviderDTO;
 import org.wwtbb.repository.QuestionProviderRepository;
 
-import java.util.Collections;
 import java.util.List;
-import java.util.Optional;
 
 @ExtendWith(MockitoExtension.class)
-public class EmployeeServiceTests {
+public class QuestionProviderServiceTests {
 
     @Mock
     private QuestionProviderRepository employeeRepository;
