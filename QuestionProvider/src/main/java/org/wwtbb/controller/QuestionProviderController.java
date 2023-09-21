@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 import org.wwtbb.data.CurrencyExchange;
-import org.wwtbb.data.Question;
 import org.wwtbb.data.QuestionProviderDTO;
 import org.wwtbb.service.CurrencyExchangeService;
 import org.wwtbb.service.QuestionProviderService;
