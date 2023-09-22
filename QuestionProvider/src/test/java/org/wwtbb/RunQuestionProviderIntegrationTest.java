@@ -17,7 +17,7 @@ import org.wwtbb.QuestionProviderApplication;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest(classes = QuestionProviderApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-public class RunQuestionProviderIntegrationTest {
+class RunQuestionProviderIntegrationTest {
     @LocalServerPort
     private int port;
 
@@ -26,7 +26,7 @@ public class RunQuestionProviderIntegrationTest {
     HttpHeaders headers = new HttpHeaders();
 
     @Test
-    public void testRetrieveQuestions() throws JSONException {
+    void testRetrieveQuestions() throws JSONException {
 
         HttpEntity<String> entity = new HttpEntity<>(null, headers);
 
