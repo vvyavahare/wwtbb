@@ -17,7 +17,7 @@ import org.wwtbb.service.CurrencyExchangeService;
 import org.wwtbb.service.QuestionProviderService;
 
 @WebMvcTest(QuestionProviderController.class)
-public class QuestionProviderControllerTests {
+class QuestionProviderControllerTests {
     private static final String END_POINT_PATH = "/questions";
 
     @Autowired
@@ -44,7 +44,7 @@ public class QuestionProviderControllerTests {
 //    }
 
     @Test
-    public void testGetAllQuestionsShouldReturn200() throws Exception {
+    void testGetAllQuestionsShouldReturn200() throws Exception {
 
         MvcResult result = mockMvc.perform(get(END_POINT_PATH).contentType("application/json"))
                 .andExpect(status().is2xxSuccessful())
