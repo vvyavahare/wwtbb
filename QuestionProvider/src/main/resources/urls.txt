@@ -9,3 +9,10 @@ taskkill /PID <PID> /F
 //really important to know when working with lombok and mapstruct together
 https://stackoverflow.com/questions/64689460/mapstruct-mapper-returns-empty-mapped-object
 https://stackoverflow.com/questions/47676369/mapstruct-lombok-together-not-compiling-unknown-property-in-result-type
+
+
+
+https://dev.to/jei/part-2-automating-code-quality-scanning-using-sonar-cloud-and-github-actions-8g7
+https://monikashrma.medium.com/why-qas-should-add-code-quality-check-for-automation-tests-and-how-2973a664c2da
+https://sonarcloud.io/summary/new_code?id=vvyavahare_wwtbb
+https://sonarcloud.io/organizations/vvyavahare/quality_gates/show/65031
