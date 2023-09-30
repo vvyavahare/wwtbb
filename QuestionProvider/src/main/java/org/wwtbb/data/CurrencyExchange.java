@@ -1,5 +1,9 @@
 package org.wwtbb.data;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.NoArgsConstructor;
+
 import java.math.BigDecimal;
 
 import javax.persistence.Column;
@@ -7,6 +11,9 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
+@Builder
+@AllArgsConstructor
+//@NoArgsConstructor
 public class CurrencyExchange {
 
     @Id
