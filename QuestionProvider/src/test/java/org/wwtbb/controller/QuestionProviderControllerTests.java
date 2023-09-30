@@ -2,7 +2,6 @@ package org.wwtbb.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
-import org.skyscreamer.jsonassert.JSONAssert;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -13,7 +12,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import org.springframework.test.web.servlet.MvcResult;
-import org.wwtbb.service.CurrencyExchangeService;
 import org.wwtbb.service.QuestionProviderService;
 
 @WebMvcTest(QuestionProviderController.class)
@@ -26,9 +24,6 @@ class QuestionProviderControllerTests {
     private ObjectMapper objectMapper;
     @MockBean
     private QuestionProviderService service;
-
-    @MockBean
-    private CurrencyExchangeService service1;
 
 //    @Test
 //    public void testAddShouldReturn400BadRequest() throws Exception {
