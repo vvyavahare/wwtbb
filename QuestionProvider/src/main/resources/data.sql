@@ -12,5 +12,4 @@
 --values(10004,'EUR','USD',75,'');
 
 -- questions table insertion
-insert into questions(id,question_string,score)
-values(1,'What is the capital of France?',2)
+insert into questions(id,question_string,score) values(1,'What is the capital of France?',2)

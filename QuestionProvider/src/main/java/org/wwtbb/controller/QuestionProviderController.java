@@ -29,6 +29,11 @@ public class QuestionProviderController {
 
         return questions;
     }
+
+    private void fn(){
+        int c = 5;
+        int b = 2;
+    }
 }
 
 
