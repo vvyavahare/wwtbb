@@ -15,6 +15,12 @@ public class QuestionProviderServiceImpl implements QuestionProviderService {
 
     @Override
     public List<QuestionProviderDTO> getAllQuestions() {
+        fin();
         return QuestionProviderMapper.INSTANCE.toDTOList(repository.findAll());
+    }
+
+    private void fin() {
+        int c = 5;
+        int b = 2;
     }
 }
