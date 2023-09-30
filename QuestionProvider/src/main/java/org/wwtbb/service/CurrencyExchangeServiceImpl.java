@@ -13,7 +13,7 @@ public class CurrencyExchangeServiceImpl implements CurrencyExchangeService {
 
     @Override
     public CurrencyExchange findByFromAndTo(String from, String to) {
-//        callCustomFn();
+        callCustomFn();
         return repository.findByFromAndTo(from, to);
     }
 
