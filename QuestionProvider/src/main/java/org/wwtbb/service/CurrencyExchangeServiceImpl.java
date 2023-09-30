@@ -21,6 +21,7 @@ public class CurrencyExchangeServiceImpl implements CurrencyExchangeService {
         int a = 5 + 6;
         int b = 6 + 7;
         int c = a + b;
+        int d = c + a;
         System.out.println("c = " + c);
     }
 }
